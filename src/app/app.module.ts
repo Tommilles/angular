@@ -3,13 +3,13 @@ import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { MaterialModule } from '../material/material.module';
-import {AutocompletePlainInputExample} from './autocomplete-plain-input-example';
+import {Zadanie} from './zadanie';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatNativeDateModule} from '@angular/material/core';
 import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
-  declarations: [AutocompletePlainInputExample],
+  declarations: [Zadanie],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
@@ -21,6 +21,6 @@ import {HttpClientModule} from '@angular/common/http';
 
   ],
   providers: [],
-  bootstrap: [AutocompletePlainInputExample],
+  bootstrap: [Zadanie],
 })
 export class AppModule {}
