@@ -11,12 +11,12 @@ import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [Zadanie],
   imports: [
+    MaterialModule,
     BrowserAnimationsModule,
     BrowserModule,
     FormsModule,
     HttpClientModule,
     MatNativeDateModule,
-    MaterialModule,
     ReactiveFormsModule,
 
   ],

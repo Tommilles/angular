@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl : './zadanie.html',
   styleUrls : ['./zadanie.css']
 })
-export class AppComponent{
+export class Zadanie{
 
 }
